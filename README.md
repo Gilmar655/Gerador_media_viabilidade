@@ -1,7 +1,7 @@
 # Viabilidade de Geradores MT
 
-Base: gerador_07_10_2026_.xlsx, fornecida em 07/10/2026.
-150 solicitações, 35 campos originais e 72 códigos de projeto após padronização de espaços e caixa.
+Base: gerador_07_10_2026_(1).xlsx, fornecida em 07/10/2026.
+679 solicitações, 35 campos originais e 340 códigos de projeto após padronização de espaços e caixa.
 A planilha atual substitui integralmente a base publicada anteriormente. Nenhum registro anterior foi acrescentado.
 
 ## Usar o painel
@@ -24,3 +24,9 @@ Cada linha é uma solicitação. Um projeto pode ter várias solicitações ou e
 Prazo médio: dias de calendário entre solicitação e viabilidade, excluindo datas inválidas e intervalos negativos. Ganho médio: média simples de % GANHO entre 0 e 100%. CHI e CI não são somados, pois podem se repetir por projeto. Datas passadas de agendamento geram alertas para conferir o status e não comprovam falta de visita.
 
 Valores, linhas, campos vazios e links da planilha original são preservados. A data de carregamento não equivale à data da última atividade. A biblioteca SheetJS mantém sua licença em SheetJS-LICENSE.txt.
+
+## Conferência integral da planilha
+
+Foram lidas todas as 2.998 linhas da área declarada, inclusive o cabeçalho, e todas as 35 colunas. A base contém 679 registros não vazios, 7 linhas vazias intercaladas e 2.311 linhas vazias após o último registro, na linha Excel 686. Os 679 IDs são distintos. Existem 3 células com erro #REF!: R620 (CI ORIGINAL), T620 (DM ORIGINAL) e J678 (NÚMERO DO EQUIPAMENTO). Esses erros são preservados e sinalizados no painel.
+
+A seção Conferência das 35 colunas apresenta preenchimento, campos vazios, valores distintos, erros Excel, texto em campo numérico e datas inválidas para todos os registros filtrados. O cálculo considera a seleção inteira e não apenas a página visível.
