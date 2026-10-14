@@ -1,7 +1,7 @@
 # Viabilidade de Geradores MT
 
-Base: gerador_07_10_2026_(1).xlsx, fornecida em 07/10/2026.
-679 solicitações, 35 campos originais e 340 códigos de projeto após padronização de espaços e caixa.
+Base: Geradores_14_10_2026(1).xlsx, fornecida em 14/10/2026.
+689 solicitações, 35 campos originais e 345 códigos de projeto após padronização de espaços e caixa.
 A planilha atual substitui integralmente a base publicada anteriormente. Nenhum registro anterior foi acrescentado.
 
 ## Usar o painel
@@ -27,6 +27,6 @@ Valores, linhas, campos vazios e links da planilha original são preservados. A 
 
 ## Conferência integral da planilha
 
-Foram lidas todas as 2.998 linhas da área declarada, inclusive o cabeçalho, e todas as 35 colunas. A base contém 679 registros não vazios, 6 linhas vazias intercaladas e 2.312 linhas vazias após o último registro, na linha Excel 686. Os 679 IDs são distintos. Existem 3 células com erro #REF!: R620 (CI ORIGINAL), T620 (DM ORIGINAL) e J678 (NÚMERO DO EQUIPAMENTO). Esses erros são preservados e sinalizados no painel.
+Foram lidas todas as 2.992 linhas da área declarada, inclusive o cabeçalho, e todas as 35 colunas. A base contém 689 registros preenchidos, da linha Excel 2 à 690, e 2.302 linhas vazias após o último registro. Os 689 IDs são distintos. Existem 2 células com erro #REF!: R615 (CI ORIGINAL) e T615 (DM ORIGINAL). Esses erros são preservados e sinalizados no painel.
 
 A seção Conferência das 35 colunas apresenta preenchimento, campos vazios, valores distintos, erros Excel, texto em campo numérico e datas inválidas para todos os registros filtrados. O cálculo considera a seleção inteira e não apenas a página visível.
