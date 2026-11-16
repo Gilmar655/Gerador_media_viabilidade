@@ -1,7 +1,7 @@
 # Viabilidade de Geradores MT
 
-Base: Geradores_media_30_10_2026.xlsx, referência de 30/10/2026, publicada em 31/10/2026.
-807 registros preenchidos, 35 campos originais e 400 códigos de projeto após padronização de espaços e caixa.
+Base: GERADOR_MEDIA_16_11.xlsx, referência e publicação de 16/11/2026.
+882 registros preenchidos, 35 campos originais e 446 códigos de projeto após padronização de espaços e caixa.
 A planilha atual substitui integralmente a base anterior.
 
 ## Usar o painel
@@ -27,8 +27,12 @@ Valores, linhas, campos vazios e links da planilha original são preservados. A 
 
 ## Conferência integral da planilha
 
-Foram conferidas todas as 3001 linhas e 35 colunas da área declarada. O cabeçalho está na linha 4. Há 807 registros preenchidos entre as linhas Excel 5 e 817, com 807 IDs distintos e 796 links. As 2190 linhas inteiramente vazias após o cabeçalho não contam como registros.
+Foram conferidas todas as 3001 linhas e 35 colunas da área declarada. O cabeçalho está na linha 4. Há 882 registros preenchidos entre as linhas Excel 5 e 892, com 882 IDs distintos e 869 links. As 2115 linhas inteiramente vazias após o cabeçalho não contam como registros.
 
-Erros de origem preservados: R623 (#REF!), T623 (#REF!), AC774 (#REF!). Os registros incompletos são mantidos e os campos ausentes aparecem na conferência.
+Erros de origem preservados: R623 (#REF!), T623 (#REF!), AC774 (#REF!), AI741 (#VALUE!). A data de solicitação 11/05/0202 (linha Excel 43) também é mantida como está e aparece nos alertas. Os registros incompletos são mantidos e os campos ausentes aparecem na conferência.
 
 A seção Conferência das 35 colunas analisa todos os registros filtrados, incluindo os que estão fora da página visível.
+
+## Atualização de 16/11/2026
+
+Em relação à base de 30/10/2026: 75 solicitações novas (IDs 816 a 890), nenhuma removida e 85 com mudança de status. Principais mudanças: 19 agendadas passaram a concluídas, 18 agendadas a aprovadas, 17 aguardando data a agendadas, 11 agendadas a canceladas, 7 aprovadas a concluídas, 5 aguardando data a canceladas, 1 aguardando data a aprovada. As 7 solicitações em AGUARDANDO CONFIRMACAO DA ESSENCIAL foram encerradas: 4 reprovadas e 3 canceladas.
